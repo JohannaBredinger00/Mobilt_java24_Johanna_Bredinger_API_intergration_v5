@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Vänster sida: Titel -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Välj en stad"
+        android:textSize="20sp"
+        android:layout_marginEnd="32dp"/>
+
+    <!-- Höger sida: knappar i en kolumn -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_stockholm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stockholm"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_gothenburg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Göteborg"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_malmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malmö"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btn_search_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sök annan stad"/>
+
+    </LinearLayout>
+
+</LinearLayout>
